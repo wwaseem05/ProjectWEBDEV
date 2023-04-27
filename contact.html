@@ -1,0 +1,81 @@
+<!-- 
+Wajiha Waseem
+WEBDEV 1
+Project 4 
+26/4/2023
+ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Project 4</title>
+		<link rel="stylesheet" href="p4styles.css" />
+		<script src="contact.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header id="welcome">
+				<div class="banner">
+				  <img src="images/headerBackground.jpeg" alt="banner" id="banner">
+				  <h1>The Echoes of Poe</h1>
+				</div>
+			  </header>
+			<nav id = "top-navigation">
+			  <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="books.html">Books</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			  </ul>
+			</nav>
+			<div id="content-title">
+				<h4>Contact Me</h4>
+			 	<p><i>If you want to be book buddies, don't hesitate to get in touch!</i></p>
+				 <form id="contactForm" action="index.html" method="post">
+					<div class="form-field">
+					  <label for="name">Name:</label>
+					  <input type="text" id="name" name="name" required>
+					  <span id="nameError" class="error"></span>
+					</div>
+					<div class="form-field">
+					  <label for="phone">Phone Number:</label>
+					  <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+					  <span id="phoneError" class="error"></span>
+					</div>
+					<div class="form-field">
+					  <label for="email">Email:</label>
+					  <input type="email" id="email" name="email" required>
+					  <span id="emailError" class="error"></span>
+					</div>
+					<div class="form-field">
+					  <label for="comments">Comments:</label>
+					  <textarea id="comments" name="comments" rows="5"></textarea>
+					</div>
+					<div class="form-field">
+					  <input type="reset" value="Reset">
+					  <input type="submit" value="Submit">
+					</div>
+				  </form>
+
+				  <div class="flower">
+					<p><i>Happy Reading!</i></p>
+				</div>
+				
+				<div class="flower">
+					<img src="images/flower.png" alt="end-image">
+				</div>
+
+				<footer id="footer">
+					<p>&copy; 2023 W.Waseem. All rights reserved.</p>
+					<div id="bottom-navigation">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="books.html">Books</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						</div>
+						</footer>
+					</div>
+		  </div>
+		</body>
+		</html>

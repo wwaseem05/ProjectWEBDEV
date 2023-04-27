@@ -1,0 +1,205 @@
+/********w************
+    
+    Project 4 Stylesheet
+    Name: Wajiha Waseem
+    Date: 26/4/2023
+    Description: Project 4 Adding CSS to a website
+
+*********************/
+#welcome {
+    position: relative;
+  }
+  
+  .banner {
+    position: relative;
+    margin-bottom: -20px;
+
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  #welcome {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+ #top-navigation {
+        text-align: center
+    }
+ #top-navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #aea8a861;
+    border-radius: 5px;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #content-title {
+    font-size: 12;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .image-with-text {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding-right: 20px;
+
+  }
+  
+  .image {
+    flex: 0 0 50%;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    grid-column: 1/-1;
+    text-align: center;
+    margin: 25.6px 0 12.8px 0;
+    font-size: 8.8px;
+    color: #767676;
+}
+
+footer #bottom-navigation ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #bottom-navigation ul li a {
+    text-decoration: none;
+	line-height: 15px;
+    color: rgb(76, 73, 81);
+}
+
+footer #bottom-navigation ul li a:hover {
+font-size: 15px;
+}
+
+footer #bottom-navigation ul li a:focus {
+	font-size: 15px;
+	color: gold;
+
+}
+
+footer #bottom-navigation ul li::after {
+	padding: 10px;
+	content: '|';
+}
+
+footer #bottom-navigation ul li:last-child:after {
+    content: '';
+}
+
+.flower {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flower img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .poe-image {
+    flex: 0 0 50%;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .poe-text {
+    flex: 0 0 50%;
+    padding: 0 20px;
+    padding-right: 50px;
+  }
+  
+  .poe-image img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .form-field {
+    margin-bottom: 10px;
+  }
+  .error {
+    color: red;
+  }
+  .focus {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  input, textarea {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .red-death {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .red-death img {
+    width: 100px;
+    height: 150px;
+  }
+
+
+
+  
+  
+  
+
